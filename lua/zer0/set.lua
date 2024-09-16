@@ -40,3 +40,4 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.updatetime = 50
 vim.opt.isfname:append("@-@")
 vim.opt.cursorline=true
+vim.opt.mouse=""
