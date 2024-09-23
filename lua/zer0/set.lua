@@ -12,7 +12,7 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 -- Wrap
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- Undo stuff
 vim.opt.swapfile = false
@@ -23,6 +23,8 @@ vim.opt.undofile = true
 -- Search
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 -- Colors
 vim.opt.termguicolors = true
@@ -38,3 +40,4 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.updatetime = 50
 vim.opt.isfname:append("@-@")
 vim.opt.cursorline=true
+vim.opt.mouse=""
