@@ -13,6 +13,7 @@ vim.opt.smartindent = true
 
 -- Wrap
 vim.opt.wrap = true
+vim.opt.linebreak = true
 
 -- Undo stuff
 vim.opt.swapfile = false
