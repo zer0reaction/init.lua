@@ -33,7 +33,6 @@ vim.opt.termguicolors = true
 -- Column
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
-vim.opt.colorcolumn="80"
 
 -- Clipboard
 vim.opt.clipboard = "unnamedplus"
