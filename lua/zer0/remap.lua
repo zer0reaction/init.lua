@@ -22,6 +22,9 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 -- Formatting the current buffer
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
+-- Exiting terminal input mode
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
+
 -- Disabling touchpad and mouse scroll
 vim.keymap.set({"n", "i", "v"}, "<Up>", "<Nop>")
 vim.keymap.set({"n", "i", "v"}, "<Left>", "<Nop>")
