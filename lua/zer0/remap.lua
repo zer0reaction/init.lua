@@ -30,3 +30,6 @@ vim.keymap.set({"n", "i", "v"}, "<Up>", "<Nop>")
 vim.keymap.set({"n", "i", "v"}, "<Left>", "<Nop>")
 vim.keymap.set({"n", "i", "v"}, "<Right>", "<Nop>")
 vim.keymap.set({"n", "i", "v"}, "<Down>", "<Nop>")
+
+-- Terminal in new tab
+vim.keymap.set("n", "<C-t>", ":tab term<Enter>")
