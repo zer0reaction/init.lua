@@ -40,7 +40,6 @@ vim.opt.signcolumn = "yes"
 -- Misc
 vim.opt.updatetime = 50
 vim.opt.isfname:append("@-@")
-vim.opt.cursorline=true
 vim.opt.mouse=""
 vim.opt.list=true
 vim.g.netrw_browse_split = 0
