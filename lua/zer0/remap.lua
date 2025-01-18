@@ -33,3 +33,6 @@ vim.keymap.set({"n", "i", "v"}, "<Down>", "<Nop>")
 
 -- Terminal in new tab
 vim.keymap.set("n", "<C-t>", ":tab term<Enter>")
+
+-- Disabling highlight
+vim.keymap.set("n", "<Esc>", ":nohl<Enter>")

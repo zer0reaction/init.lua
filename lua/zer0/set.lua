@@ -22,7 +22,7 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
 -- Search
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -42,8 +42,5 @@ vim.opt.updatetime = 50
 vim.opt.isfname:append("@-@")
 vim.opt.mouse=""
 vim.opt.guicursor=""
-vim.g.netrw_browse_split = 0
-vim.g.netrw_banner = 0
-vim.g.netrw_winsize = 25
 vim.opt.list = true
 vim.opt.listchars = { tab = '▸ ', trail = '·' }
