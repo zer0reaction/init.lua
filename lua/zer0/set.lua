@@ -31,7 +31,6 @@ vim.opt.smartcase = true
 vim.opt.termguicolors = true
 
 -- Column
-vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
 -- Clipboard
