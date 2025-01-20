@@ -36,3 +36,7 @@ vim.keymap.set("n", "<C-t>", ":tab term<Enter>")
 
 -- Disabling highlight
 vim.keymap.set("n", "<Esc>", ":nohl<Enter>")
+
+-- HERESY
+vim.keymap.set("n", "<C-s>", ":w<Enter>")
+vim.keymap.set("n", "<C-c>", ":qa<Enter>")
