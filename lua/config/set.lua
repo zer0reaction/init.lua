@@ -22,7 +22,7 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
 -- Search
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -33,12 +33,7 @@ vim.opt.termguicolors = true
 -- Column
 vim.opt.signcolumn = "yes"
 
--- Clipboard
--- vim.opt.clipboard = "unnamedplus"
-
 -- Misc
 vim.opt.updatetime = 50
-vim.opt.isfname:append("@-@")
-vim.opt.mouse=""
 vim.opt.list = true
 vim.opt.listchars = { tab = '▸ ', trail = '·' }

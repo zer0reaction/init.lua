@@ -1,4 +1,3 @@
--- keymap switching 
 local keymaps = {"", "russian-jcukenwin"}
 local current_keymap = 1
 
@@ -16,6 +15,6 @@ local function next_keymap()
     else
         print("Keymap switched to " .. keymaps[current_keymap])
     end
-end 
+end
 
 vim.keymap.set("n", "<leader>k", function() next_keymap() end)

@@ -1,5 +1,0 @@
-require("zer0.remap")
-require("zer0.set")
-require("zer0.autocmd")
-require("zer0.scripts")
-require("zer0.lazy_init")
