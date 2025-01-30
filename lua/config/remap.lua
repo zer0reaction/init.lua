@@ -18,3 +18,9 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 -- Pasting without it going in the clipboard
 vim.keymap.set("x", "<leader>p", [["_dP]])
+
+-- Tabs
+vim.keymap.set("n", "<C-t>", ":tabnew<Enter>")
+vim.keymap.set("n", "<C-x>", ":tabclose<Enter>")
+vim.keymap.set("n", "<C-j>", ":tabprev<Enter>")
+vim.keymap.set("n", "<C-k>", ":tabnext<Enter>")
