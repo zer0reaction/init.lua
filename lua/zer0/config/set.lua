@@ -38,4 +38,5 @@ vim.opt.updatetime = 50
 vim.opt.list = true
 vim.opt.listchars = { tab = '▸ ', trail = '·' }
 vim.opt.autoread = true
+vim.opt.cursorline = true
 -- vim.opt.scrolloff = 8
