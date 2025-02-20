@@ -40,4 +40,4 @@ vim.opt.listchars = { tab = '▸ ', trail = '·' }
 vim.opt.autoread = true
 vim.opt.cursorline = true
 vim.opt.scrolloff = 5
-vim.opt.colorcolumn = "81"
+vim.opt.colorcolumn = "121"
