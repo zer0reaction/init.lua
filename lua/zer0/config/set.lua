@@ -1,3 +1,6 @@
+-- Thicc cursor
+vim.opt.guicursor = ""
+
 -- Numbers
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -22,7 +25,7 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
 -- Search
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -38,6 +41,5 @@ vim.opt.updatetime = 50
 vim.opt.list = true
 vim.opt.listchars = { tab = '▸ ', trail = '·' }
 vim.opt.autoread = true
-vim.opt.cursorline = true
-vim.opt.scrolloff = 5
+vim.opt.scrolloff = 8
 vim.opt.colorcolumn = "81"

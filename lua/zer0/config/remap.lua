@@ -27,7 +27,3 @@ vim.keymap.set("n", "<C-k>", ":tabnext<Enter>")
 
 -- Fix visual block weirdness (and saves my pinky)
 vim.keymap.set("i", "<M-c>", "<Esc>")
-
--- Remove highlight
-
-vim.keymap.set("n", "<C-c>", ":nohl<Enter>");
